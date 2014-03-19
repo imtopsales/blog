@@ -1,0 +1,16 @@
+markdown: rdiscount
+permalink: /:title/
+url: http://imtopsales.com
+name: imTopsales.com
+author: imTopsales.com
+qq: 
+email: imtopsales@163.com
+duoshuo: imtopsales
+beian: 
+cnzz: 1000323736
+weibo: 
+github: imtopsales
+pygments: true
+safe: true
+paginate: 20
+about: "嘿嘿"
