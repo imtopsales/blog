@@ -20,7 +20,7 @@ tags: mina vysper xmpp 网易企业邮箱
 <div>2) 熟悉eclipse，或其他类似的ide，不过我后面的例子都是基于eclipse的。</div>
 <div>3) 已经购买了网易企业邮箱。</div>
 
-<div style="margin-top: 25px;"><b>好咯，可以开始折腾了，简单介绍一下步骤 (完整的代码见github：)</b></div>
+<div style="margin-top: 25px;"><b>好咯，可以开始折腾了，简单介绍一下步骤 (完整的代码见github：<a href="https://github.com/imtopsales/vysper-demo" target="_blank">https://github.com/imtopsales/vysper-demo</a>)</b></div>
 <div><b>1)</b> 先去下载<a target="_blank" href="http://mina.apache.org/vysper-project/download_0.7.html">Vysper 0.7</a>，解压出来，放一边备用。</div>
 <div><b>2)</b> 在eclipse中新建一个工程，新建lib文件夹，在上一步解压的文件中找出对应的jar包放到lib文件夹，加到build path；再把bogus_mina_tls.cert，log4j.xml，spring-config.xml这三个文件放到src文件夹中；另外，还需要找找httpclient的jar包，我用了4.3.1，可以根据实际需要在<a href="http://hc.apache.org/downloads.cgi" target="_blank">http://hc.apache.org/downloads.cgi</a>找找4.3.x的其他版本。</div>
 <div><b>3)</b> 找网易企业邮箱的客服申请api权限，她们会提供一份文档的，文档里面有原理说明和api使用方法。然后我们需要给网易提供我们的服务器IP，另外还要生成一对rsa公私钥，公的给网易，私的留个自己。。。(网易客服邮箱 kf#qiye.163.com ，电话大概是400-6281-163)</div>
